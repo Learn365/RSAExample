@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAExample", "RSAExample.csproj", "{131E08B9-9F0D-4E89-90EA-19A7D935255F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAKeyGen", "..\RSAKeyGen\RSAKeyGen.csproj", "{DDB9C85D-9B6C-429A-8E1C-21F6D0A8E5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAEncryptor", "RSAEncryptor\RSAEncryptor.csproj", "{3A810FA2-B798-4B05-BFF5-B4EFD432FFE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{131E08B9-9F0D-4E89-90EA-19A7D935255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131E08B9-9F0D-4E89-90EA-19A7D935255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131E08B9-9F0D-4E89-90EA-19A7D935255F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB9C85D-9B6C-429A-8E1C-21F6D0A8E5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB9C85D-9B6C-429A-8E1C-21F6D0A8E5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB9C85D-9B6C-429A-8E1C-21F6D0A8E5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB9C85D-9B6C-429A-8E1C-21F6D0A8E5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A810FA2-B798-4B05-BFF5-B4EFD432FFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A810FA2-B798-4B05-BFF5-B4EFD432FFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A810FA2-B798-4B05-BFF5-B4EFD432FFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A810FA2-B798-4B05-BFF5-B4EFD432FFE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
